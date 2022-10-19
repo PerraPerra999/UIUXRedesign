@@ -1,0 +1,204 @@
+:root {
+    --main-bg-color: #e2e2e2;
+    --button-bg:  #3D3932; 
+    --button-bg1: #6F6C67;
+    --button-text1: #F8F4ED;
+    --main-header-text: #6F6C67;
+    --app-title: #5b5957;
+    --click-button: #fbf9f7;
+    --main-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    /* font-family: helvetical ,arial; */
+    font-family: var(--main-font);
+}
+
+html{
+    background-color: var(--main-bg-color);
+}
+
+
+
+.headlines{
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 7vh;
+    width: 20vh;
+    border-radius: 5px;
+    font-size: 2.5vh;
+    
+   
+    
+}
+#logo{
+    width: 100%;
+    height: auto;
+    max-width: 12vh;
+    float: left;
+}
+
+#topHeader{
+  overflow: auto;
+  width: 100%;
+  float: center;
+}
+
+
+#topHeader a{
+    float: left;
+    padding-left: 0px;
+    color: var(--button-text1);
+    width: 8rem;
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: var(--button-bg);
+    border-radius: 3%;
+    margin-left: 11rem;
+    display: block;
+    text-decoration: none;
+    
+    
+}
+
+
+
+#topHeader a:hover {
+    background-color: var(--button-bg1);
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+#applicationsSection img{
+    max-width: 100%;
+    margin-left: 6rem;
+    border: 0.5vh solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.item{
+    max-width:30rem;
+    align-self: center;
+    text-align:left;
+    display:block;
+    margin-right: 0rem;
+    margin-left: 23vh;
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+    float: left;
+    font-weight:200;
+    position: relative;
+    transition: 1s ease;
+    
+}
+
+
+.item img:hover + .imageText{
+-webkit-transform: scale(0.95);
+-ms-transform: scale(0.95);
+transform: scale(0.95);
+transition: 1s ease;
+}
+
+.item img:hover + .imageText2{
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 1s ease;
+    }
+
+.item a{
+    text-decoration: none;
+    color: var(--button-bg);
+    
+}
+
+.titles{
+    
+    display: block;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 10vh;
+}
+
+.imageText{
+    position: absolute;
+    background-color: var(--app-title);
+    top: 0.4vh;
+    left: 0.4vh;
+    font-size: 1.5rem;
+    font-weight: light;
+    margin-left: 0vh;
+    color: var(--button-text1);
+    width: 99%;
+    padding-left: 1vh;
+    transition: 1s ease;
+}
+
+
+
+
+.button{
+    font-family: var(--main-font);
+    box-shadow:2px 3px#6F6C67;
+    height: 3.5vh;
+    width: 15vh;
+    border-radius: 10px;
+    background-color: var(--click-button);
+    margin-right: 14vh;
+}
+
+.facebookButton{
+    font-family: var(--main-font);
+    box-shadow:2px 3px#6F6C67;
+    height: 7vh;
+    max-width: 22vh;
+    padding-top: 1vh;
+    padding-right: 1vh;
+    margin-left: 0vh;
+    background-color: var(--click-button);
+    
+    
+}
+
+.button:hover{
+    background-color: #fceefb;
+}
+
+
+.extrasSection img{
+    max-width: 100%;
+    margin-left: 6rem;
+    border: 0.5vh solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.extrasSection{
+    max-width: 100%;
+}
+
+.applicationsSection{
+    max-width: 100%;
+}
+
